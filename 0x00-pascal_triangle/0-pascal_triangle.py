@@ -11,7 +11,7 @@ def fat(num):
         The factorial
     '''
 
-    if (num == 1 or num == 0):
+    if (num == 1):
         return 1
     else:
         return num * fat(num - 1)
