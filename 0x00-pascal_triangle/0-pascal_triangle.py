@@ -22,6 +22,8 @@ def pascal_triangle(num):
 pascal triangle na
     """
     container = []
+    if (num <= 0):
+        return container
     for x in range(num):
         container.append([])
         for y in range(x+1):
