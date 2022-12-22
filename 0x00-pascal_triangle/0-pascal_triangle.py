@@ -25,10 +25,9 @@ def pascal_triangle(num):
     Returns:
         List of lists of integers representing the Pascal’s triangle
     '''
-
     container = []
     if num == 0:
-        return [1]
+        return container
     for x in range(num):
         container.append([])
         for y in range(x+1):
