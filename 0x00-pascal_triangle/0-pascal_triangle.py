@@ -1,15 +1,15 @@
 #!/usr/bin/python3
-"""
-pascal triangle
-"""
-
-import sys
+'''Module to return pascal triangle'''
 
 
 def fat(num):
-    """
-function to return the factorial of num
-    """
+    '''
+    Fatorial
+    Args:
+        num (int): The number to be factorialed
+    Returns:
+        The factorial
+    '''
 
     if (num == 1 or num == 0):
         return 1
@@ -18,9 +18,14 @@ function to return the factorial of num
 
 
 def pascal_triangle(num):
-    """
-pascal triangle na
-    """
+    '''
+    Pascal's triangle
+    Args:
+        n (int): The number of rows of the triangle
+    Returns:
+        List of lists of integers representing the Pascal’s triangle
+    '''
+
     container = []
     if (num <= 0):
         return container
