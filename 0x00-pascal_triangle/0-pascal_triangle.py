@@ -11,7 +11,7 @@ def fat(num):
         The factorial
     '''
 
-    if (num == 1 or num == 0):
+    if num == 1 or num == 0:
         return 1
     else:
         return num * fat(num - 1)
@@ -27,7 +27,7 @@ def pascal_triangle(num):
     '''
 
     container = []
-    if (num <= 0):
+    if num == 0:
         return []
     for x in range(num):
         container.append([])
