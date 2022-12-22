@@ -21,7 +21,7 @@ def pascal_triangle(num):
     '''
     Pascal's triangle
     Args:
-        n (int): The number of rows of the triangle
+        num (int): The number of rows of the triangle
     Returns:
         List of lists of integers representing the Pascal’s triangle
     '''
