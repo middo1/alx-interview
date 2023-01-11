@@ -20,9 +20,7 @@ def minOperations(n):
             x = h
             h *= 2
             counter += 2
-            print(counter, h)
         else:
             h += x
             counter += 1
-            print(counter, h)
     return counter
